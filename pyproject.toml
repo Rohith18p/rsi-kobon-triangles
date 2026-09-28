@@ -1,0 +1,29 @@
+[project]
+name = "rsi-math"
+version = "0.1.0"
+description = "Open Math Challenge work: AutoLab openmath hills"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    # core numerics / exact arithmetic
+    "numpy",
+    "scipy",
+    "sympy",
+    "mpmath",
+    "gmpy2",        # fast exact rationals / big ints
+    "numba",        # fast simulators (Busy Beaver, Collatz, triangle counting)
+    # graphs / combinatorics
+    "networkx",     # Ramsey templates, Cayley graphs
+    # optimization and search
+    "cvxpy",        # SDPs for Grothendieck witnesses (Clarabel/SCS solvers)
+    "ortools",      # CP-SAT / MIP search
+    "python-sat",   # SAT solvers (matrix-multiplication schemes)
+    # workflow
+    "matplotlib",
+    "tqdm",
+    "jupyterlab",
+    "ipykernel",
+    "pytest",
+]
+
+[tool.uv]
+package = false
