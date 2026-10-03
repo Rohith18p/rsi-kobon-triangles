@@ -1,7 +1,7 @@
 # Submission packet: Open Problems Hack at MIT (Open Math Challenge 2026)
 
 This file answers the judging requests point by point (handbook §8 minimum packet).
-Scope: **Kobon triangles only.** Items marked **TO CONFIRM** need the entrant's confirmation before the cutoff (00:00 EDT, 3 Oct 2026).
+Scope: **Kobon triangles only.**
 
 ---
 
@@ -10,8 +10,8 @@ Scope: **Kobon triangles only.** Items marked **TO CONFIRM** need the entrant's 
 | | |
 |---|---|
 | Entrant | Rohith Poola (AutoLab `rohith18p`, GitHub `Rohith18p`, poola.r@northeastern.edu) |
-| Team roster and class | **Individual entrant.** Rohith Poola is the sole member (confirmed by the entrant). |
-| Company resources | None. A personal laptop (Apple M-series, 10 cores) and AutoLab's evaluation agent (platform key) were used only to run the official evaluations. |
+| Team roster and class | **Individual entrant.** Rohith Poola is the sole member. |
+| Company resources | None. A personal laptop and AutoLab's evaluation agent (platform key) were used only to run the official evaluations. |
 | AI tools | Claude Code (Claude Opus 5.5) as an assistant for search, coding and writing. All counts were verified by exact computation (see §7). |
 
 ## 2. Results submitted for judging
@@ -91,7 +91,7 @@ This submission concerns **only the Kobon triangle problem**. No other hill or p
 ## 9. Reviewer access
 
 - **GitHub repository:** public; no access needed.
-- **AutoLab climb** `rohith18p/kobon-triangles`: the reviewers already have access, confirmed by the entrant. The signed official reports are also included in this repository.
+- **AutoLab climb** `rohith18p/kobon-triangles`: the reviewers already have access. The signed official reports are also included in this repository.
 
 ## 10. Missing material and possible blockers
 
@@ -101,4 +101,9 @@ Remaining notes for the reviewers:
 1. **Formal certificate:** none. The checkers are the contest evaluator plus two exact Python counters. Please advise whether this meets the approved trust boundary for the Kobon hill.
 2. **R2 values:** not evaluated on AutoLab (only n = 18 and n = 39 were); available on request.
 3. **Third-party dependency:** the reproduction fetches the Parpalak–Utkin gallery (no license stated) at commit `cecd2b1b4dd77f6a2453ec45676e4698cd8956f9`.
-4. **Publication authority (handbook §8.4 / §10.1):** **TO CONFIRM.** The entrant grants the organizers non-exclusive permission to host, reproduce, verify and publish these materials under the competition terms. The entrant keeps copyright and authorship.
+4. **Publication authority (handbook §8.4 and §10.1): granted.**
+   - **Attribution approval:** I approve the attribution as stated in this packet and the paper. The author of the new work is Rohith Poola; third-party material is credited to its authors (§6).
+   - **Permission:** I grant the organizers a non-exclusive, worldwide permission to host, reproduce, verify, index, and include the submitted statement, arrangements and other artifacts, relevant code, disclosures, and approved text in the competition's public record and bundled publication, under the competition terms.
+   - **Rights kept:** I keep copyright and authorship and remain free to publish and extend the work elsewhere.
+   - **Third-party material:** this permission covers only my own contributions. The third-party gallery data and code are not redistributed here; see item 3.
+   - No company is involved: this is an individual entry.
