@@ -1,7 +1,7 @@
 # Submission packet: Open Problems Hack at MIT (Open Math Challenge 2026)
 
 This file answers the judging requests point by point (handbook §8 minimum packet).
-Items marked **TO CONFIRM** need the entrant's confirmation before the cutoff (00:00 EDT, 3 Oct 2026).
+Scope: **Kobon triangles only.** Items marked **TO CONFIRM** need the entrant's confirmation before the cutoff (00:00 EDT, 3 Oct 2026).
 
 ---
 
@@ -10,7 +10,7 @@ Items marked **TO CONFIRM** need the entrant's confirmation before the cutoff (0
 | | |
 |---|---|
 | Entrant | Rohith Poola (AutoLab `rohith18p`, GitHub `Rohith18p`, poola.r@northeastern.edu) |
-| Team roster and class (individual / team) | **TO CONFIRM**: Rohith Poola is the only member recorded here |
+| Team roster and class | **Individual entrant.** Rohith Poola is the sole member (confirmed by the entrant). |
 | Company resources | None. A personal laptop (Apple M-series, 10 cores) and AutoLab's evaluation agent (platform key) were used only to run the official evaluations. |
 | AI tools | Claude Code (Claude Opus 5.5) as an assistant for search, coding and writing. All counts were verified by exact computation (see §7). |
 
@@ -45,11 +45,9 @@ R1 is the result we ask to be judged. R2 is offered as a narrow certified comput
   - **Same checker scope as R1** (exact count of an explicit arrangement). They have not been run through the AutoLab evaluator.
 - **R3:** [`kobon-triangles/n18_93/`](kobon-triangles/n18_93/), containing the solution, its signed official report and the annealing runs.
 
-## 5. Ramsey K4 multiplicity (weighted graph, rational counts, blow-up argument)
+## 5. Scope of this submission
 
-**Not part of this packet.** This repository contains no Ramsey K4 result. The team's separate exploratory Ramsey work is kept outside this repository and has **not** been prepared for judging.
-
-**TO CONFIRM:** whether a Ramsey result should be submitted. If so, it needs its own packet: the exact weighted template, rational density and counts, the blow-up (lifting) argument, the checker, and the commit.
+This submission concerns **only the Kobon triangle problem**. No other hill or problem (in particular no Ramsey K4 multiplicity result) is submitted for judging.
 
 ## 6. Paper and novelty / limitations note
 
@@ -93,14 +91,14 @@ R1 is the result we ask to be judged. R2 is offered as a narrow certified comput
 ## 9. Reviewer access
 
 - **GitHub repository:** public; no access needed.
-- **AutoLab climb:** requires sign-in; it is private to the owner by default. **TO CONFIRM:** add reviewers as collaborators, e.g. `autolab settings collab add <github-username>` from the climb workspace. The signed official reports are also included in this repository.
+- **AutoLab climb** `rohith18p/kobon-triangles`: the reviewers already have access, confirmed by the entrant. The signed official reports are also included in this repository.
 
 ## 10. Missing material and possible blockers
 
-1. **Team roster / entrant class:** to confirm (§1).
-2. **AutoLab reviewer access:** to grant (§9).
-3. **Ramsey K4:** no packet; confirm whether one is intended (§5).
-4. **Formal certificate:** none. The checkers are the contest evaluator plus two exact Python counters. Please advise whether this meets the approved trust boundary for the Kobon hill.
-5. **R2 values:** not evaluated on AutoLab (only n = 18 and n = 39 were); available on request.
-6. **Third-party dependency:** the reproduction fetches the Parpalak–Utkin gallery (no license stated) at commit `cecd2b1b4dd77f6a2453ec45676e4698cd8956f9`.
-7. **Publication authority (§8.4):** **TO CONFIRM.** The entrant grants permission to release these materials under the competition terms.
+Resolved: team (individual entrant), scope (Kobon only), reviewer access (reviewers already have the climb).
+
+Remaining notes for the reviewers:
+1. **Formal certificate:** none. The checkers are the contest evaluator plus two exact Python counters. Please advise whether this meets the approved trust boundary for the Kobon hill.
+2. **R2 values:** not evaluated on AutoLab (only n = 18 and n = 39 were); available on request.
+3. **Third-party dependency:** the reproduction fetches the Parpalak–Utkin gallery (no license stated) at commit `cecd2b1b4dd77f6a2453ec45676e4698cd8956f9`.
+4. **Publication authority (handbook §8.4 / §10.1):** **TO CONFIRM.** The entrant grants the organizers non-exclusive permission to host, reproduce, verify and publish these materials under the competition terms. The entrant keeps copyright and authorship.
