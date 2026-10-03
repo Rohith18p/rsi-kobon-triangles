@@ -1,11 +1,11 @@
 Climb the AutoLab hill alejandrozu/busy-beaver-6-certificates on this machine with the hills skill.
 
-Setup (check each before installing; work from /Users/rohith/My/WORK/Projects/RSI_Math, which is a git repo):
+Setup (check each before installing; work from /Users/rohith/My/WORK/Projects/rsi-kobon-triangles, which is a git repo):
 1. `hills --version` (0.11.0 is installed). Load the hills skill if available.
 2. `autolab --version`; if missing: `curl -fsSL https://app.autolab.ai/install.sh | sh`.
 3. `autolab --url https://app.autolab.ai whoami`; if not signed in, ask me to run `! autolab --url https://app.autolab.ai login`.
 4. `autolab --url https://app.autolab.ai hills pull alejandrozu/busy-beaver-6-certificates` -> ./.autolab/hills/busy-beaver-6-certificates.
-5. Python: `uv run` inside RSI_Math (numba for the simulator). Work in `work/bb6/`: `src/`, `submissions/NNN-slug/solution.json`, `reports/`, `journal.html`. Branch `hills/busy-beaver-6-certificates`, one commit per experiment.
+5. Python: `uv run` inside rsi-kobon-triangles (numba for the simulator). Work in `bb6/`: `src/`, `submissions/NNN-slug/solution.json`, `reports/`, `journal.html`. Branch `hills/busy-beaver-6-certificates`, one commit per experiment.
 
 Context (as of 2026-09-27; re-check the board):
 - Task: one 6-state, 2-symbol TM (states A–F, halt H), started in state A on a blank tape. It must halt within a **private step budget** and visit all six states. Score = (steps ↑, ones ↑, tape_span ↑). Machines that don't halt within the budget are **rejected**, not capped. Validation and final use **different** budgets.

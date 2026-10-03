@@ -1,12 +1,12 @@
 Climb the AutoLab hill ottogin/erdos-3 on this machine with the hills skill.
 
-Setup (check each before installing; work from /Users/rohith/My/WORK/Projects/RSI_Math, which is a git repo):
+Setup (check each before installing; work from /Users/rohith/My/WORK/Projects/rsi-kobon-triangles, which is a git repo):
 1. `hills --version` (0.11.0 is installed). Load the hills skill if available.
 2. `autolab --version`; if missing: `curl -fsSL https://app.autolab.ai/install.sh | sh`.
 3. `autolab --url https://app.autolab.ai whoami`; if not signed in, ask me to run `! autolab --url https://app.autolab.ai login`.
 4. `autolab --url https://app.autolab.ai hills pull ottogin/erdos-3` -> ./.autolab/hills/erdos-3.
 5. Read `statement.lean`, `eval.py`, `hill.yaml` and the example solution. The README says checking happens "inside the hill's image". Find out whether `hills eval` needs Docker or builds Lean/Mathlib itself, and tell me if something (e.g. Docker Desktop) must be installed.
-6. Local Lean environment for development: `lean/formal-conjectures/` (Lean v4.33.1, Mathlib prebuilt, `FormalConjecturesUtil` built). Check drafts with `cd lean/formal-conjectures && lake env lean <file>`. Work in `work/erdos-3/`: `drafts/`, `submissions/NNN-slug/solution.lean`, `reports/`, `journal.html`. Branch `hills/erdos-3`.
+6. Local Lean environment for development: `lean/formal-conjectures/` (Lean v4.33.1, Mathlib prebuilt, `FormalConjecturesUtil` built). Check drafts with `cd lean/formal-conjectures && lake env lean <file>`. Work in `erdos-3/`: `drafts/`, `submissions/NNN-slug/solution.lean`, `reports/`, `journal.html`. Branch `hills/erdos-3`.
 
 Context:
 - Statement (from google-deepmind/formal-conjectures, ErdosProblems/3.lean): if A ⊆ ℕ has Σ_{a∈A} 1/a = ∞, then A contains arithmetic progressions of arbitrarily large length k. The k = 3 case is Bloom–Sisask (2020). k ≥ 4 is **open**. There's a $5,000 Erdős prize, administered by erdosproblems.com, not by this event.

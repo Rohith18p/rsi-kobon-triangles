@@ -11,24 +11,26 @@ lean/formal-conjectures/
 .autolab/
 climbs/
 
-# third-party material we do not redistribute (see work/kobon-triangles/research/raw/SOURCES.md for provenance)
-work/kobon-triangles/research/papers/
-work/kobon-triangles/research/raw/
-work/kobon-triangles/research/tools/autolab_hill_eval.py
-work/kobon-triangles/research/records/
-work/kobon-triangles/derived/big/
-work/kobon-triangles/derived/base_p*.json
+# third-party material we do not redistribute (see kobon-triangles/research/raw/SOURCES.md for provenance)
+kobon-triangles/research/papers/
+kobon-triangles/research/raw/
+kobon-triangles/research/tools/autolab_hill_eval.py
+kobon-triangles/research/records/
+kobon-triangles/derived/big/
+kobon-triangles/derived/base_p*.json
 
 # scratch / logs (logs contain local paths and one-time login codes)
-work/kobon-triangles/logs/
-work/kobon-triangles/satlns/tmp_*
-work/kobon-triangles/satlns_test/
-work/kobon-triangles/candidates/
-work/kobon-triangles/*.log
-work/kobon-triangles/multiline/logs/
-work/kobon-triangles/deck/png/
-work/kobon-triangles/derived/g38/
-work/kobon-triangles/research/oeis_A006066.txt
-work/kobon-triangles/research/n39_candidates/perfect_pseudoline_words/parpalak_utkin_*
+kobon-triangles/logs/
+kobon-triangles/satlns/tmp_*
+kobon-triangles/satlns_test/
+kobon-triangles/candidates/
+kobon-triangles/*.log
+kobon-triangles/multiline/logs/
+kobon-triangles/deck/png/
+kobon-triangles/derived/g38/
+kobon-triangles/research/oeis_A006066.txt
+kobon-triangles/research/n39_candidates/perfect_pseudoline_words/parpalak_utkin_*
 # not part of this repo (Ramsey work)
 work/ramsey-k4/
+# reproduction build output (fetched gallery checkout, rebuilt files)
+kobon-triangles/n39_470/build/

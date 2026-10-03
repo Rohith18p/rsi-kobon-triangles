@@ -1,11 +1,11 @@
 Climb the AutoLab hill alejandrozu/collatz-modular-descent on this machine with the hills skill.
 
-Setup (check each before installing; work from /Users/rohith/My/WORK/Projects/RSI_Math, which is a git repo):
+Setup (check each before installing; work from /Users/rohith/My/WORK/Projects/rsi-kobon-triangles, which is a git repo):
 1. `hills --version` (0.11.0 is installed). Load the hills skill if available.
 2. `autolab --version`; if missing: `curl -fsSL https://app.autolab.ai/install.sh | sh`.
 3. `autolab --url https://app.autolab.ai whoami`; if not signed in, ask me to run `! autolab --url https://app.autolab.ai login`.
 4. `autolab --url https://app.autolab.ai hills pull alejandrozu/collatz-modular-descent` -> ./.autolab/hills/collatz-modular-descent.
-5. Python: `uv run` inside RSI_Math. Work in `work/collatz/`: `src/`, `submissions/NNN-slug/solution.json`, `reports/`, `journal.html`. Branch `hills/collatz-modular-descent`, one commit per experiment.
+5. Python: `uv run` inside rsi-kobon-triangles. Work in `collatz/`: `src/`, `submissions/NNN-slug/solution.json`, `reports/`, `journal.html`. Branch `hills/collatz-modular-descent`, one commit per experiment.
 
 Context (as of 2026-09-27; re-check the board):
 - Task: ≤ 512 rules {modulus_power k, odd residue r, exponents [e1..es]} with k ≥ 1 + Σe, 3^s < 2^Σe, and C^s(n) < n on the whole class. Score = (coverage of **hidden** odd classes mod 2^8..2^12 ↑, min_descent_ppm ↑, rule_count ↓). Validation and test use different hidden targets.

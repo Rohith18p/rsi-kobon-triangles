@@ -1,11 +1,11 @@
 Climb the AutoLab hill alejandrozu/grothendieck-constant-witnesses on this machine with the hills skill.
 
-Setup (check each before installing; work from /Users/rohith/My/WORK/Projects/RSI_Math, which is a git repo):
+Setup (check each before installing; work from /Users/rohith/My/WORK/Projects/rsi-kobon-triangles, which is a git repo):
 1. `hills --version` (0.11.0 is installed). Load the hills skill if available.
 2. `autolab --version`; if missing: `curl -fsSL https://app.autolab.ai/install.sh | sh`.
 3. `autolab --url https://app.autolab.ai whoami`; if not signed in, ask me to run `! autolab --url https://app.autolab.ai login`.
 4. `autolab --url https://app.autolab.ai hills pull alejandrozu/grothendieck-constant-witnesses` -> ./.autolab/hills/grothendieck-constant-witnesses.
-5. Python: `uv run` inside RSI_Math (cvxpy with Clarabel/SCS, numpy, numba, gmpy2). Work in `work/grothendieck/`: `src/`, `submissions/NNN-slug/solution.json`, `reports/`, `journal.html`. Branch `hills/grothendieck-constant-witnesses`, one commit per experiment.
+5. Python: `uv run` inside rsi-kobon-triangles (cvxpy with Clarabel/SCS, numpy, numba, gmpy2). Work in `grothendieck/`: `src/`, `submissions/NNN-slug/solution.json`, `reports/`, `journal.html`. Branch `hills/grothendieck-constant-witnesses`, one commit per experiment.
 
 Context (as of 2026-09-27; re-check the board):
 - Task: an m×n ±1 matrix (2 ≤ m, n ≤ 8) plus rational unit vectors u_i, v_j in dimension d (2 ≤ d ≤ 16), with coordinates as reduced [num, den] pairs (|values| ≤ 1e6) and squared norm **exactly** 1. Score = (gap_ppm = ⌊1e6 · vector/sign⌋ ↑, m·n ↓, certificate bits ↓). sign(A) is computed by exhaustive enumeration.

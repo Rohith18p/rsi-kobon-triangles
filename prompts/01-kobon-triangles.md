@@ -1,11 +1,11 @@
 Climb the AutoLab hill alejandrozu/kobon-triangles on this machine with the hills skill.
 
-Setup (check each before installing; work from /Users/rohith/My/WORK/Projects/RSI_Math, which is a git repo):
+Setup (check each before installing; work from /Users/rohith/My/WORK/Projects/rsi-kobon-triangles, which is a git repo):
 1. `hills --version` (0.11.0 is installed). Load the hills skill if available.
 2. `autolab --version`; if missing: `curl -fsSL https://app.autolab.ai/install.sh | sh`.
 3. `autolab --url https://app.autolab.ai whoami`; if not signed in, ask me to run `! autolab --url https://app.autolab.ai login`.
 4. `autolab --url https://app.autolab.ai hills pull alejandrozu/kobon-triangles` -> ./.autolab/hills/kobon-triangles.
-5. Python for search code: `uv run` inside RSI_Math (numpy, numba, sympy, ortools, python-sat available). Work in `work/kobon-triangles/`: search code in `src/`, one folder per candidate in `submissions/NNN-slug/solution.json`, signed reports in `reports/`, and `journal.html`. Branch `hills/kobon-triangles`, one commit per experiment.
+5. Python for search code: `uv run` inside rsi-kobon-triangles (numpy, numba, sympy, ortools, python-sat available). Work in `kobon-triangles/`: search code in `src/`, one folder per candidate in `submissions/NNN-slug/solution.json`, signed reports in `reports/`, and `journal.html`. Branch `hills/kobon-triangles`, one commit per experiment.
 
 Context (as of 2026-09-27; re-check the board with `/api/v1/hills/alejandrozu/kobon-triangles/board`):
 - Task: exactly n integer lines `[a,b,c]` (|coef| ≤ 1e30, no duplicates). Score = number of bounded triangular faces not crossed by any line. Exact arithmetic. Each n has its own leaderboard.

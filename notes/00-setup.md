@@ -1,4 +1,4 @@
-# Setup: tools installed for RSI_Math
+# Setup: tools installed for rsi-kobon-triangles
 
 ## Lean (for Erdős #3 and any formalization work)
 - `elan` (Homebrew `elan-init`) with toolchain **leanprover/lean4:v4.33.1**, the default and the same version the erdos-3 checker uses.

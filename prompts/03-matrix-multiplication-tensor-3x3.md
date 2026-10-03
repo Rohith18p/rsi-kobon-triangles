@@ -1,11 +1,11 @@
 Climb the AutoLab hill alejandrozu/matrix-multiplication-tensor-3x3 on this machine with the hills skill.
 
-Setup (check each before installing; work from /Users/rohith/My/WORK/Projects/RSI_Math, which is a git repo):
+Setup (check each before installing; work from /Users/rohith/My/WORK/Projects/rsi-kobon-triangles, which is a git repo):
 1. `hills --version` (0.11.0 is installed). Load the hills skill if available.
 2. `autolab --version`; if missing: `curl -fsSL https://app.autolab.ai/install.sh | sh`.
 3. `autolab --url https://app.autolab.ai whoami`; if not signed in, ask me to run `! autolab --url https://app.autolab.ai login`.
 4. `autolab --url https://app.autolab.ai hills pull alejandrozu/matrix-multiplication-tensor-3x3` -> ./.autolab/hills/matrix-multiplication-tensor-3x3.
-5. Python: `uv run` inside RSI_Math (numpy, sympy, numba, python-sat). Work in `work/matmul-3x3/`: `src/`, `submissions/NNN-slug/solution.json`, `reports/`, `journal.html`. Branch `hills/matrix-multiplication-tensor-3x3`, one commit per experiment.
+5. Python: `uv run` inside rsi-kobon-triangles (numpy, sympy, numba, python-sat). Work in `matmul-3x3/`: `src/`, `submissions/NNN-slug/solution.json`, `reports/`, `journal.html`. Branch `hills/matrix-multiplication-tensor-3x3`, one commit per experiment.
 
 Context (as of 2026-09-27; re-check the board):
 - Task: factor matrices u, v, w (R rows × 9 exact rationals, |num|, |den| ≤ 1e6) satisfying all 729 Brent equations. Conventions: A and B are row-major; the **W index for C[row][col] is 3·col + row (column-major)**. Score = (rank ↓, support ↓).

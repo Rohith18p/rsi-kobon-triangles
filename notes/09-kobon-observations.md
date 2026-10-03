@@ -69,7 +69,7 @@ Notation (all exact):
 - **[C] Deleting any one line from a perfect odd-n arrangement** loses exactly n−2 triangles. Occasionally the greedy choice gains 1 back (73 → 72: 1657; 97 → 96: 2977).
 
 ## 4. New lower bounds (first values for n with no published arrangement; exact, verified)
-- 39: 470 (AutoLab #1)
+- 39: 470 (official AutoLab score; #1 from 27 Sep until a 471 by another team on 2 Oct)
 - 40: 494
 - 44: 608 (simple, meets Blanc's simple bound)
 - 47: 691

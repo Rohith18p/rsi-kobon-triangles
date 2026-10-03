@@ -21,7 +21,7 @@ autolab --url https://app.autolab.ai login           # opens browser; or --token
 autolab --url https://app.autolab.ai whoami
 npx skills add autolab-ai/hills                      # optional: agent skill
 ```
-Pull a hill. Run this **from RSI_Math**, because it lands in `./.autolab/hills/<name>`:
+Pull a hill. Run this **from rsi-kobon-triangles**, because it lands in `./.autolab/hills/<name>`:
 ```sh
 autolab --url https://app.autolab.ai hills pull alejandrozu/kobon-triangles
 ```
