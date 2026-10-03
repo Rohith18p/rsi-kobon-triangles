@@ -34,11 +34,6 @@ A folder containing `solution.json` with three matrices `u`, `v`, `w`:
 ## Starting point
 The baseline is Laderman's rank-23 decomposition.
 
-## Leaderboard (as of 2026-09-27)
-- #1 and #2: rank **23**, support **139**
-- #3: rank 23, support 153
-- Nobody has rank 22.
-
 ## Key takeaways
 - The realistic goal is a rank-23 scheme with support **< 139**.
 - Known rank-23 schemes form large families (many are publicly catalogued), so you can search them for sparse members, or use flip-graph / SAT / alternating-least-squares search with rational rounding.

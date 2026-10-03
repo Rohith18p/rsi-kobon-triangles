@@ -7,11 +7,11 @@ triangular faces that no other line crosses.
 
 ## Results (exact, integer arithmetic; official AutoLab scores where noted)
 
-**Main result, with full method, verification and reproduction: [`N39_470_SOLUTION.md`](N39_470_SOLUTION.md).**
+**For judges:** submission packet [`SUBMISSION.md`](SUBMISSION.md) · paper [`paper/kobon39.pdf`](paper/kobon39.pdf) · main result [`N39_470_SOLUTION.md`](N39_470_SOLUTION.md) (method, verification, reproduction). Frozen at git tag `final-submission`.
 
 | n | triangles | status |
 |---|---|---|
-| 39 | **470** | Official AutoLab score (27 Sep). It was #1 and the best known value until a 471 was submitted on 2 Oct; now #2. No 39-line arrangement had been published before (OEIS A006066 lists "?"). Upper bound: 481. Rebuild: `sh kobon-triangles/n39_470/reproduce.sh`. |
+| 39 | **470** | Official AutoLab score (experiment `23e84fc7`, 27 Sep 2026). No 39-line arrangement had been published before (OEIS A006066 lists "?"). Upper bound: 481. Rebuild: `sh kobon-triangles/n39_470/reproduce.sh`. |
 | 18 | 93 | Official AutoLab score; ties the best known value. See `kobon-triangles/n18_93/`. |
 | 40, 44, 47, 48, 51–96 | see `kobon-triangles/RESULTS.md` | First values for n with no published arrangement (dev numbers, exact-verified; not all submitted). |
 
@@ -25,7 +25,9 @@ triangular faces that no other line crosses.
 ```
 notes/                   problem summaries, workflow/rules, observations, slide deck
 prompts/                 agent prompts per problem
+SUBMISSION.md            judging packet: results, checker scope, references, access, open items
 N39_470_SOLUTION.md      the n = 39 / 470 solution: method, anatomy, verification, reproduction
+paper/                   paper (kobon39.pdf, Typst source, figures)
 kobon-triangles/
   n39_470/               official 470 solution, signed report, verify.py, reproduce.sh, scan_all_bases.sh
   n18_93/                official 93 solution (n = 18), signed report, annealing runs

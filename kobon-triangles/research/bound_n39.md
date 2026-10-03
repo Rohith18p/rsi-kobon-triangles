@@ -1,6 +1,6 @@
 # Upper bound for n = 39, and how close we can realistically get
 
-Date: 2026-09-27. Our standing: #1 on the n=39 board with **469** (`added/n39_469_u38-grow.json`).
+Date: 2026-09-27.
 During this session the team's search also produced **470** (`lns/n39_470_*.json`, six files). I re-checked one with `verify_independent.py`: 470. **[V]**
 
 Legend:

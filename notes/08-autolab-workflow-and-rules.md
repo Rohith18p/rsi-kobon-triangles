@@ -29,7 +29,7 @@ autolab --url https://app.autolab.ai hills pull alejandrozu/kobon-triangles
 ## Can I solve locally and upload? Yes
 1. Develop and search locally with any tools. The handbook allows any AI or tool, but you must disclose them.
 2. Score locally with `hills eval <dir> -H <name> -o reports/NNN.json`.
-3. Submit the best to the hub leaderboard: `hills eval <best> -H <name> -o report.json`, then `autolab --url https://app.autolab.ai hills submit report.json`.
+3. Submit the best result to the hill: `hills eval <best> -H <name> -o report.json`, then `autolab --url https://app.autolab.ai hills submit report.json`.
 
 **Competition credit is a separate step.** Handbook §7.2: every claim needs an AutoLab **submission ID, Hill tree hash, Climb link, immutable final commit, final evaluator report**. The competition-specific workflow (templates, namespaces) "will be linked from the event website before submissions open."
 - **Open question to ask the organizers:** does a locally produced report submitted with `autolab hills submit` count as a **Climb**? Or do you need to start a Climb on AutoLab? If you need a Climb, you can choose "On AutoLab" plus "your coding agent" and use **this Mac as the compute node** via `autolab serve`, so you don't have to rent compute.
@@ -46,7 +46,7 @@ autolab --url https://app.autolab.ai hills pull alejandrozu/kobon-triangles
   - **P2 = .05–.15** for a nontrivial improvement short of the central obstacle
   - **P3 = .15–.35** for a meaningful bound or special case
 - Known mathematics earns no open-problem credit. Reproducing a published construction = 0.
-- A **new record** (a better bound than the literature) is what earns points. Beating other teams on a leaderboard metric that isn't an open problem, such as `support` or tie-breakers, likely earns ~0. This is my reading of the handbook, so confirm with the organizers.
+- A **new record** (a better bound than the literature) is what earns points. Improving a hill metric that isn't an open problem, such as `support` or tie-breakers, likely earns ~0. This is my reading of the handbook, so confirm with the organizers.
 
 ## Paperwork to keep from day 1 (handbook §6–8)
 - A **timestamped baseline commit**, plus an explicit "new-work delta" (what was done during the event).

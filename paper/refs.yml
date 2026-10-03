@@ -1,0 +1,53 @@
+fk:
+  type: article
+  title: Triangles in Euclidean arrangements
+  author: ["Felsner, Stefan", "Kriegel, Klaus"]
+  date: 1999
+  parent:
+    type: periodical
+    title: Discrete & Computational Geometry
+    volume: 22
+  page-range: 429-438
+cb:
+  type: misc
+  title: Tighter upper bound for the number of Kobon triangles
+  author: ["Clément, G.", "Bader, J."]
+  date: 2007
+  note: Draft, OEIS A006066 attachment
+bbl:
+  type: article
+  title: On simple arrangements of lines and pseudo-lines in P^2 and R^2 with the maximum number of triangles
+  author: ["Bartholdi, Nicolas", "Blanc, Jérémy", "Loisel, Sébastien"]
+  date: 2008
+  parent:
+    type: book
+    title: Surveys on Discrete and Computational Geometry, Contemporary Mathematics 453
+  url: https://arxiv.org/abs/0706.0723
+blanc:
+  type: article
+  title: The best polynomial bounds for the number of triangles in a simple arrangement of n lines in the real projective plane
+  author: ["Blanc, Jérémy"]
+  date: 2011
+  parent:
+    type: periodical
+    title: Geombinatorics
+    volume: 21
+  url: https://arxiv.org/abs/0801.2845
+savchuk:
+  type: article
+  title: Constructing optimal Kobon triangle arrangements via table encoding, SAT solving, and heuristic straightening
+  author: ["Savchuk, Pavlo"]
+  date: 2025
+  url: https://arxiv.org/abs/2507.07951
+pu-gallery:
+  type: web
+  title: Gallery of known solutions to the Kobon triangle problem (ud1/kobon-solutions)
+  author: ["Parpalak, R.", "Utkin, D."]
+  date: 2026
+  url: https://github.com/ud1/kobon-solutions
+pu-enum:
+  type: article
+  title: Enumeration and classification of triangle-maximal pseudoline arrangements
+  author: ["Parpalak, R.", "Utkin, D."]
+  date: 2026
+  url: https://arxiv.org/abs/2607.29236

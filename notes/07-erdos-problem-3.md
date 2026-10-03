@@ -30,9 +30,6 @@ A folder containing `solution.lean`, holding a proof term or a `by ...` tactic b
 
 The proof must compile with **no `sorry`** and use **no axioms** beyond `propext`, `Classical.choice`, `Quot.sound`.
 
-## Leaderboard (as of 2026-09-27)
-No scored entries yet.
-
 ## Key takeaways
 - It's all or nothing: a full proof means solving a famous open problem.
 - The hill README says partial or related results are welcome, but the only score is `proved`.

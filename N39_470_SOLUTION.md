@@ -2,7 +2,7 @@
 
 **Team:** rohith18p · Open Math Challenge (Open Problems Hack at MIT, 27 Sep – 2 Oct 2026)
 **Hill:** AutoLab [`alejandrozu/kobon-triangles`](https://app.autolab.ai/hills/alejandrozu/kobon-triangles) v0.1.0
-**Status as of 2 Oct 2026:** officially scored **470** (submitted 27 Sep), currently **#2** on the n = 39 board
+**Status:** officially scored **470** by the hill's evaluator (submitted 27 Sep 2026)
 
 ---
 
@@ -28,16 +28,6 @@
 | Report | `passed: true`, `official: true`, `triangles = 470`, timestamp `2026-09-27T19:45:26Z` |
 | Submission hash | `sha256:94d4b2efa8681396064459eebdf5f1411def9590a79ef75abdc05d4db417e7ee` |
 | Signed report | [`kobon-triangles/n39_470/official_report.json`](kobon-triangles/n39_470/official_report.json) |
-
-### Leaderboard, n = 39 (checked 2 Oct 2026)
-
-| Rank | Entrant | Triangles | Submitted (UTC) |
-|---|---|---|---|
-| 1 | lavaskiller | 471 | 2026-10-02 17:58 |
-| **2** | **rohith18p (us)** | **470** | 2026-09-27 19:45 |
-| 3 | octavianboji | 468 | 2026-09-27 18:39 |
-
-From 27 Sep to 2 Oct our 470 was #1 and the best known value anywhere. A 471 was submitted on 2 Oct.
 
 ---
 

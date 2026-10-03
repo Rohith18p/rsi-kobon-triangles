@@ -42,10 +42,6 @@ A folder containing one JSON file:
 | `min_descent_ppm` | maximize | weakest contraction among rules that are used × 10⁶ |
 | `rule_count` | minimize | number of rules |
 
-## Leaderboard (as of 2026-09-27)
-- Top three are tied: **coverage 1,000,000 (100%)**, min_descent 525390, **3 rules**.
-- This hill looks **saturated**. The remaining room is in tie-breakers: a stronger worst-case contraction, or fewer rules.
-
 ## Key takeaways
 - Some odd classes (for example n ≡ 3 mod 4 paths like 27) need long exponent sequences, so full coverage with few rules is a clever-compression problem.
 - Only worth attempting if you can improve `min_descent_ppm` while keeping 100% coverage and ≤ 3 rules.

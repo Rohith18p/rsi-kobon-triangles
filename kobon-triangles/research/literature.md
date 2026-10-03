@@ -119,7 +119,7 @@ Everything is under `research/`. Provenance is in `raw/SOURCES.md`.
 - `raw/zegalur_line-order_gallery/`: Savchuk's tables, including Bader 18/93.
 - `papers/`: PDFs and text of BBL 2008, Blanc 2011, Savchuk 2025, Parpalak–Utkin 2026a and 2026b, Clément–Bader 2007, Pegg 2006, Bader's page, the Liu Zenodo papers and Alkauskas 2025.
 - `oeis_A006066.txt` is the full OEIS entry.
-- Not fetched: Bader's original 18/93 coordinates (only images and a PDF via web.archive, but the gallery and LineOrder contain equivalent 93s); Zarzuelo's paper; the AutoLab leaderboard (needs login/API key).
+- Not fetched: Bader's original 18/93 coordinates (only images and a PDF via web.archive, but the gallery and LineOrder contain equivalent 93s); Zarzuelo's paper.
 
 ## 4. Construction methods
 
@@ -146,5 +146,4 @@ Everything is under `research/`. Provenance is in `raw/SOURCES.md`.
 - **Same kind of open gap as n=18, but bigger:** n=22 (143 vs 144), 24 (172 vs 173), 26 (204 vs 205), 28, 30, 32, 34, 36 (402 vs 404), 38. Each needs a non-simple arrangement beating the (rounded-up) Blanc bound, and none has ever been found.
 - **Most practical "new record" wins [I]:** n values where **no arrangement is published**: **39, 40, 44, 47, 48**, and most n from 51 to 100 (the gallery stops at 54, apart from the doubling series 57, 65, 73, 97).
   - Examples: n=39 (bound 481, perfect needed; Savchuk found no 13-fold-symmetric table) and n=40 (Blanc simple bound 500). Any strong construction, e.g. adding a line to a 39- or 41-line arrangement, or SAT + straightening, would be the first published value.
-  - Before choosing one, check the AutoLab leaderboard for existing submissions at that n.
 - **Ready baseline:** `records/n18_93_*.json` and `records/n20_117_*.json` tie the best known and pass the hill evaluator. Submit one as a fallback.

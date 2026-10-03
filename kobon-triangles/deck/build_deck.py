@@ -189,7 +189,7 @@ def main():
     fig.text(0.07, 0.50, "Methods, results and what we are trying next  ·  n = 18 and n = 39", fontsize=18,
              color=INK2)
     hero(fig, 0.07, 0.25, "93", "n = 18 · ties the best known")
-    hero(fig, 0.37, 0.25, "470", "n = 39 · official (#2 since 2 Oct)", color=BLUE)
+    hero(fig, 0.37, 0.25, "470", "n = 39 · official AutoLab score", color=BLUE)
     hero(fig, 0.67, 0.25, "481", "n = 39 · proven upper bound")
     footer(fig, 1, "Open Math Challenge · AutoLab hill alejandrozu/kobon-triangles · team rohith18p · 27 Sep 2026")
     slides.append(fig)
@@ -242,7 +242,6 @@ def main():
         "Blanc (2011) proved: a SIMPLE arrangement of 18 lines has at most 93 triangles.",
         "So 94 would need triple points or parallel lines, and nobody has found one",
         "  (the Parpalak–Utkin gallery lists 3,016 different 93s and no 94).",
-        "Leaderboard: 16 entries all at 93; ties are ranked by submission time (we are #8).",
         "Value for the competition: matching a known result earns no new-math credit;",
         "  it confirmed our end-to-end pipeline (search → exact check → official evaluation).",
     ], y=0.45, size=14.5)
@@ -307,11 +306,11 @@ def main():
     # 8 ---- n = 39 summary
     fig = new_slide("n = 39: 470 triangles, officially scored", "n = 39 · summary")
     hero(fig, 0.05, 0.60, "470", "ours, official (27 Sep)", color=BLUE)
-    hero(fig, 0.30, 0.60, "471", "current #1 (lavaskiller, 2 Oct)")
+    hero(fig, 0.30, 0.60, "450", "published 38-line base it extends")
     hero(fig, 0.55, 0.60, "481", "proven upper bound")
     hero(fig, 0.78, 0.60, "?", "published value (OEIS)")
     bullets(fig, [
-        "No 39-line arrangement was published before this event (OEIS lists a(39) as '?'); ours was #1 27 Sep – 2 Oct.",
+        "No 39-line arrangement was published before this event — OEIS lists a(39) as '?'.",
         "The bound 481 = 39·37/3 holds for every arrangement (Felsner–Kriegel 1999);",
         "  reaching it needs a 'perfect' arrangement: every segment used by exactly one triangle.",
         "The only thing ruled out so far: a perfect arrangement with 13-fold symmetry (Savchuk 2025).",
@@ -422,15 +421,14 @@ def main():
     ax.axis("off")
     ax.plot([455, 485], [0.4, 0.4], color=GRID, lw=6, solid_capstyle="round")
     ax.plot([470, 481], [0.4, 0.4], color=ORANGE, lw=6, solid_capstyle="butt", alpha=0.35)
-    for v, lab, col, yy in ((470, "470\nours", BLUE, 0.75), (471, "471\nother team (2 Oct)", MUTED, -0.05),
-                            (481, "481\nproven maximum", INK, 0.75)):
+    for v, lab, col, yy in ((470, "470\nours (drawn)", BLUE, 0.75), (481, "481\nproven maximum", INK, 0.75)):
         ax.scatter([v], [0.4], s=160, color=col, zorder=3, edgecolors=SURFACE, linewidths=2)
         ax.text(v, yy, lab, ha="center", va="bottom" if yy > 0.4 else "top", fontsize=12, color=col,
                 weight="bold")
-    ax.text(476.5, 0.05, "open: 472 – 481", ha="center", va="top", fontsize=12, color=ORANGE)
+    ax.text(475.5, 0.05, "open: 471 – 481", ha="center", va="top", fontsize=12, color=ORANGE)
     bullets(fig, [
         "Proven: nothing can beat 481 (true for all arrangements, including triple points and parallels).",
-        "Not yet known: whether 481 (or anything above 471) can actually be drawn with straight lines.",
+        "Not yet known for us: whether 481 (or anything above 470) can be drawn with straight lines.",
         "Tried without success: SAT neighbourhood search (394) and 2–4-line re-insertion (~2,000 moves).",
         "  Open directions: new global constructions; straightening many more near-perfect curved-line patterns.",
     ], y=0.40, size=14)

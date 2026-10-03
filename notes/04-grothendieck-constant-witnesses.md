@@ -33,10 +33,6 @@ A folder containing `solution.json`:
 | `matrix_area` | minimize | m · n |
 | `certificate_bits` | minimize | total bit length of the rational numbers |
 
-## Leaderboard (as of 2026-09-27)
-- Top: **gap_ppm = 1414213** (≈ √2) with a 2×2 matrix and 80 bits (tie between a-hamdi and wilsonwu-ai).
-- That's just CHSH with near-optimal rational vectors.
-
 ## Key takeaways
 - √2 is the 2×2 ceiling. To go higher you **need bigger matrices** (up to 8×8) and higher-dimensional vectors.
 - Workflow: pick a matrix, solve the SDP for the vector value numerically, then **round to exact rational unit vectors**. Rational points on spheres come from Pythagorean-style parametrizations.

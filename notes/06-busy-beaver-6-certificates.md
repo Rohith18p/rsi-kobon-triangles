@@ -34,12 +34,6 @@ That example halts after 6 steps.
 | `ones` | maximize | number of 1s on the tape at halt |
 | `tape_span` | maximize | width of the tape region visited |
 
-## Leaderboard (as of 2026-09-27)
-- #1 eychcue: **249,881 steps**, 554 ones, span 735
-- #2 yavol: 246,872 steps
-- #3 a-hamdi: 177,725 steps
-
 ## Key takeaways
 - The best-known BB(6) champions run far longer than any budget can simulate, so they would be **rejected**. You need machines that halt "late but not too late."
-- The hidden budget is unknown. Leaderboard scores (about 250k) are a hint about what's accepted. Validation and final evaluation use **different** budgets, so leave some margin.
 - Approach: enumerate or search machines (for example from the bbchallenge dataset), simulate fast, and keep ones that halt with large step counts below the budget.

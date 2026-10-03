@@ -13,7 +13,7 @@ Work plan:
 5. Formalize the most promising target in a separate Lean file. Check it by compiling (with the same toolchain) and keep it `sorry`-free. Commit each working step.
 
 Rules:
-- Never read private/. Never edit reports. Don't submit to the leaderboard unless `proved` = 1, and ask me first.
+- Never read private/. Never edit reports. Don't submit to the hill unless `proved` = 1, and ask me first.
 - Keep a journal (journal.html or JOURNAL.md): what you tried, what compiled, what failed and why, and the current best artifact.
 - Record the model/tool versions used, for the competition's disclosure requirements.
 - Stop and report after the survey (step 4) so I can choose the target, then continue autonomously on the chosen one.
